@@ -1,0 +1,9 @@
+div#background-pic {
+  background: #a33737;
+}
+
+#summary-container {
+  background-color: rgba(48, 48, 48, 0.9);
+  color: rgb(213, 218, 174);
+  width: fit-content;
+}
