@@ -1,9 +1,12 @@
 div#background-pic {
-  background: #a33737;
+  background: url("./city_of_austin_bg.jpg");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  height: 50vh;
 }
 
 #summary-container {
-  background-color: rgba(48, 48, 48, 0.9);
+  background-color: rgba(48, 48, 48, 0.85);
   color: rgb(213, 218, 174);
   width: fit-content;
 }
