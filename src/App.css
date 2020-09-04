@@ -38,8 +38,9 @@
     margin-top: 0;
   }
 
-  div#main-btn-container {
+  div#main-btn-container-a, div#main-btn-container-b {
     grid-template-columns: auto;
+    grid-template-rows: 25vh 25vh;
   }
 }
 
@@ -108,7 +109,6 @@ body {
   }
 
 .main.btn {
-  border: white 2px;
   text-align: center;
   line-height: 100px;
   color: white;
@@ -116,17 +116,33 @@ body {
 }
 
 #about-btn {
-  background-color: rgba(232, 33, 33, .6);
+  background: rgba(232, 33, 33, .4);
+  background: -webkit-linear-gradient(rgba(232, 33, 33, .4), rgba(232, 33, 33, .4)), url('./about.jpg'), ;
+  background-image: linear-gradient(rgba(232, 33, 33, .4), rgba(232, 33, 33, .4)), url('./about.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 #projects-btn {
-  background-color: rgba(219, 207, 34, 0.6);
+    background: rgba(238, 188, 22, 0.4);
+    background: -webkit-linear-gradient(rgba(238, 188, 22, 0.4), rgba(238, 188, 22, 0.4)), url('./projects.jpg'), ;
+    background-image: linear-gradient(rgba(238, 188, 22, 0.4), rgba(238, 188, 22, 0.4)), url('./projects.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 #blog-btn {
-  background-color: rgba(33, 149, 234, .6);
+  background: rgba(33, 149, 234, .6);
+  background: -webkit-linear-gradient(rgba(33, 149, 234, .6), rgba(33, 149, 234, .6)), url('./blog.jpg'), ;
+  background-image: linear-gradient(rgba(33, 149, 234, .6), rgba(33, 149, 234, .6)), url('./blog.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 #social-btn {
   background-color: rgba(0, 128, 128, 0.6);
+  background: -webkit-linear-gradient(rgba(0, 128, 128, 0.6), rgba(0, 128, 128, 0.6)), url('./social_picture.jpg'), ;
+  background-image: linear-gradient(rgba(0, 128, 128, 0.6), rgba(0, 128, 128, 0.6)), url('./social_picture.jpg');
+  background-size: 150%;
+  background-repeat: no-repeat;
 }
