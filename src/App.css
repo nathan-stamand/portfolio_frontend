@@ -1,16 +1,87 @@
-div#background-pic {
-  background: url("./city_of_austin_bg.jpg");
-  background-size: 75%;
-  max-width: 1000px;
-  min-width: 400px;
+@media screen and (min-width: 1200px) {
+  div#background-pic {
+    background-size: 66.7%;
+    min-height: 200px;
+    max-height: 300px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  div#background-pic {
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 991px) {
+
+}
+
+@media screen and (max-width: 768px) {
+  div#background-pic {
+    background-size: cover;
+    max-height: 180px;
+  }
+
+  div#summary-container {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+    max-height: 75px;
+    margin: 0 0 15px 0;
+  }
+
+  div#picture-of-nathan {
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+  img#nathan-looking-great {
+    margin-top: 0;
+  }
+}
+
+body {
+  background-color: rgb(255, 255, 255) ;
+}
+
+#background-pic {
+  display: grid;
+  height: 50vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  background-image: url("./city_of_austin_bg.jpg");
+  background-color: rgba(48, 48, 48);
   background-repeat: no-repeat;
-  height: 40vh;
-  max-height: 220px;
-  
+  border-bottom-style: solid;
+  border-bottom-color: rgba(48, 48, 48);
+  border-bottom-width: 5px;
 }
 
 #summary-container {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+  grid-column: 1;
+  grid-row: 1;
   background-color: rgba(48, 48, 48, 0.85);
-  color: rgb(217, 218, 216);
+  color: rgb(255, 255, 255);
   width: fit-content;
+  height: fit-content;
+  border-radius: 0 0 8px 0;
+  padding: 0 5px 0 5px;
+}
+
+#picture-of-nathan {
+  grid-column: 3;
+  grid-row: 1 / span 3;
+}
+
+#nathan-looking-great {
+  width: 40%;
+  height: auto;
+  min-width: 110px;
+  max-width: 220px;
+  margin: auto;
+  margin-top: 10%;
+  display: block;
+  border: solid rgba(0, 0, 0, 0.5) 6px;
+  border-radius: 50%;
 }
