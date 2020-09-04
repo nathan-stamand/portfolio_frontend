@@ -38,7 +38,7 @@
     margin-top: 0;
   }
 
-  div#main-btn-container-a, div#main-btn-container-b {
+  div#main-card-container-a, div#main-card-container-b {
     grid-template-columns: auto;
     grid-template-rows: 25vh 25vh;
   }
@@ -92,7 +92,7 @@ body {
   border-radius: 50%;
 }
 
-#main-btn-container-a {
+#main-card-container-a {
   background-color: rgba(48, 48, 48, 0.5);
   display: grid;
   grid-template-columns: 45% auto;
@@ -100,7 +100,7 @@ body {
   z-index: 1;
 }
 
-#main-btn-container-b {
+#main-card-container-b {
     background-color: rgba(48, 48, 48, 0.5);
     display: grid;
     grid-template-columns: 55% auto;
@@ -108,7 +108,7 @@ body {
     z-index: 1;
   }
 
-.main.btn {
+.main.card {
   text-align: center;
   color: white;
   font-size: 2em;
@@ -117,7 +117,7 @@ body {
   grid-template-rows: 1fr 1fr 1fr;
 }
 
-#about-btn {
+#about-card {
   background: rgba(232, 33, 33, .4);
   background: -webkit-linear-gradient(rgba(232, 33, 33, .4), rgba(232, 33, 33, .4)), url('./about.jpg'), ;
   background-image: linear-gradient(rgba(232, 33, 33, .4), rgba(232, 33, 33, .4)), url('./about.jpg');
@@ -125,7 +125,7 @@ body {
   background-repeat: no-repeat;
 }
 
-#projects-btn {
+#projects-card {
     background: rgba(238, 188, 22, 0.4);
     background: -webkit-linear-gradient(rgba(238, 188, 22, 0.4), rgba(238, 188, 22, 0.4)), url('./projects.jpg'), ;
     background-image: linear-gradient(rgba(238, 188, 22, 0.4), rgba(238, 188, 22, 0.4)), url('./projects.jpg');
@@ -133,7 +133,7 @@ body {
     background-repeat: no-repeat;
 }
 
-#blog-btn {
+#blog-card {
   background: rgba(33, 149, 234, .6);
   background: -webkit-linear-gradient(rgba(33, 149, 234, .6), rgba(33, 149, 234, .6)), url('./blog.jpg'), ;
   background-image: linear-gradient(rgba(33, 149, 234, .6), rgba(33, 149, 234, .6)), url('./blog.jpg');
@@ -141,7 +141,7 @@ body {
   background-repeat: no-repeat;
 }
 
-#social-btn {
+#social-card {
   background-color: rgba(0, 128, 128, 0.6);
   background: -webkit-linear-gradient(rgba(0, 128, 128, 0.6), rgba(0, 128, 128, 0.6)), url('./social_picture.jpg'), ;
   background-image: linear-gradient(rgba(0, 128, 128, 0.6), rgba(0, 128, 128, 0.6)), url('./social_picture.jpg');
@@ -149,7 +149,7 @@ body {
   background-repeat: no-repeat;
 }
 
-section.btn-text {
+section.card-text {
   grid-column: 2;
   grid-row: 2;
   margin-top: 10px
