@@ -72,6 +72,7 @@ body {
 #picture-of-nathan {
   grid-column: 3;
   grid-row: 1 / span 3;
+  z-index: 999;
 }
 
 #nathan-looking-great {
@@ -84,4 +85,34 @@ body {
   display: block;
   border: solid rgba(0, 0, 0, 0.5) 6px;
   border-radius: 50%;
+}
+
+#main-btn-container {
+  background-color: rgba(48, 48, 48, 0.5);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 50vh;
+  z-index: 100;
+}
+
+.main.btn {
+  border: transparent 2px;
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  min-width: 300px;
+  min-height: 300px;
+  font-size: 2em;
+}
+
+#about-btn {
+  background-color: rgba(232, 33, 33, .6);
+}
+
+#projects-btn {
+    background-color: rgba(162, 3, 209, .6);
+}
+
+#blog-btn {
+    background-color: rgba(33, 149, 234, .6);
 }
