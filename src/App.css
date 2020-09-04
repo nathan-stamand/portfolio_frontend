@@ -90,18 +90,16 @@ body {
 #main-btn-container {
   background-color: rgba(48, 48, 48, 0.5);
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 50vh;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
   z-index: 100;
 }
 
 .main.btn {
-  border: transparent 2px;
+  border: white 2px;
   text-align: center;
   line-height: 100px;
   color: white;
-  min-width: 300px;
-  min-height: 300px;
   font-size: 2em;
 }
 
@@ -110,9 +108,13 @@ body {
 }
 
 #projects-btn {
-    background-color: rgba(162, 3, 209, .6);
+  background-color: rgba(219, 207, 34, 0.6);
 }
 
 #blog-btn {
-    background-color: rgba(33, 149, 234, .6);
+  background-color: rgba(33, 149, 234, .6);
+}
+
+#social-btn {
+  background-color: rgba(0, 128, 128, 0.6);
 }
