@@ -37,6 +37,10 @@
   img#nathan-looking-great {
     margin-top: 0;
   }
+
+  div#main-btn-container {
+    grid-template-columns: auto;
+  }
 }
 
 body {
