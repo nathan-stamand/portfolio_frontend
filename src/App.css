@@ -58,9 +58,6 @@ body {
   background-image: url("./city_of_austin_bg.jpg");
   background-color: rgba(48, 48, 48);
   background-repeat: no-repeat;
-  border-bottom-style: solid;
-  border-bottom-color: rgba(48, 48, 48);
-  border-bottom-width: 5px;
 }
 
 #summary-container {
