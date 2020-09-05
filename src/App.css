@@ -64,6 +64,10 @@
   div#about-card, div#projects-card, div#blog-card, div#social-card {
     background-size: cover;
   }
+
+  section.card-text {
+    padding: 5px;
+  }
 }
 
 body {
@@ -136,6 +140,11 @@ body {
   grid-template-rows: 1fr 1fr 1fr;
 }
 
+.main.card:hover {
+  cursor: pointer;
+  filter: sepia(1.9);
+}
+
 #about-card {
   background: rgba(232, 33, 33, .4);
   background: -webkit-linear-gradient(rgba(232, 33, 33, .4), rgba(232, 33, 33, .4)), url('./about.jpg'), ;
@@ -168,10 +177,32 @@ body {
   background-repeat: no-repeat;
 }
 
-section.card-text {
+#about-card:hover {
+  background-image: url('./about.jpg');
+}
+
+#projects-card:hover {
+  background-image: url('./projects.jpg');
+}
+
+#blog-card:hover {
+  background-image: url('./blog.jpg');
+}
+
+#social-card:hover {
+  background-image: url('./social_picture.jpg');
+}
+
+.card-text {
+  background: rgba(0, 0, 0, 0.35);
   grid-column: 2;
   grid-row: 2;
-  margin-top: 10px
+  margin-top: 10px;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+  border: solid white;
 }
 
 #contact-form {
