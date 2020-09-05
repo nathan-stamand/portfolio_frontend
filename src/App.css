@@ -142,7 +142,7 @@ body {
 
 .main.card:hover {
   cursor: pointer;
-  filter: sepia(1.9);
+  filter: sepia(.8);
 }
 
 #about-card {
