@@ -8,6 +8,9 @@ function App() {
     <div className="App">
       <Header />
       <MainCards />
+      <div id="contact-form">
+        
+      </div>
     </div>
   );
 }
