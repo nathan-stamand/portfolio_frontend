@@ -10,12 +10,16 @@ function App() {
       <MainCards />
       <div id="contact-form">
         <form>
-          <label htmlFor="name">Full Name</label>
-          <input id="name" type="text" className="email-form"/>
-          <label htmlFor="email">Email Address</label>
-          <input id="email" type="text" className="email-form"/>
-          <label htmlFor="message">Message</label>
-          <textarea id="message" className="email-form"/>
+          <section id="personal-info">
+            <label htmlFor="name">Full Name</label>
+            <input id="name" type="text" className="email-form"/>
+            <label htmlFor="email">Email Address</label>
+            <input id="email" type="text" className="email-form"/>
+          </section>
+          <section id="message-text">
+            <label htmlFor="message">Message</label>
+            <textarea id="message" className="email-form"/>
+          </section>
           <input type="submit" value="-submit-" />
         </form>
       </div>
