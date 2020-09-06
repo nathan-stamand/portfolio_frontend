@@ -216,6 +216,7 @@ body {
 #contact-form > form {
   grid-column: 2 / span 2;
   display: grid;
+  padding-top: 5px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
 }
@@ -224,6 +225,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 30px 50px 30px auto;
+  padding: 0 10px 0 10px;
 }
 
 input[type^="text"] {
@@ -242,12 +244,14 @@ input[type^="text"] {
 textarea#message {
   width: 340px;
   height: 150px;
+  margin: 12px 5px 0px 2px;
 }
 
 input[type^="submit"] {
   background-color: rgb(34, 34, 34);
   color: rgb(185, 185, 185);
   padding: 8px 12px 8px 12px;
+  margin-top: 145px;
   max-height: 40px;
   max-width: 80px;
   border: solid rgb(102, 102, 102) 1px;
