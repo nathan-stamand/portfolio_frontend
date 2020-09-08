@@ -32,6 +32,14 @@
   div#social-card {
     background-size: 160%;
   }
+
+  div#contact-form {
+    grid-template-columns: 25% auto;
+  }
+
+  div#contact-form > form {
+    grid-template-columns: auto;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -209,7 +217,7 @@ body {
   background: rgba(48, 48, 48);
   color: white;
   display: grid;
-  grid-template-columns: 20% 2fr 1fr;
+  grid-template-columns: 35% 2fr 1fr;
   grid-template-rows: 1fr
 }
 
@@ -230,6 +238,7 @@ body {
 
 input[type^="text"] {
   max-height: 26px;
+  max-width: 250px;
 }
 
 .email-form {
