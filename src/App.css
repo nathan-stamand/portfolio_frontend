@@ -34,10 +34,6 @@
   input, textarea#message, #message-text-submit > input[type^="submit"] {
     margin: auto
   }
-
-  label#name, label#email, label#message {
-    margin: 0;
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -240,12 +236,13 @@ body {
 #personal-info {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 30px 50px 30px auto;
+  grid-template-rows: 30px 50px 30px 50px;
   padding: 0 10px 0 10px;
 }
 
 label {
   text-align: center;
+  padding-top: 5px;
 }
 
 input[type^="text"] {
