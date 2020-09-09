@@ -23,12 +23,20 @@
   }
 
   div#contact-form {
-    grid-template-columns: 25% auto;
+    grid-template-columns: 0 auto 0;
     height: fit-content;
   }
 
   div#contact-form > form {
     grid-template-columns: auto;
+  }
+
+  input, textarea#message, #message-text-submit > input[type^="submit"] {
+    margin: auto
+  }
+
+  label#name, label#email, label#message {
+    margin: 0;
   }
 }
 
@@ -75,10 +83,6 @@
   div#contact-form > form {
     grid-template-columns: auto;
     grid-template-rows: auto;
-  }
-
-  input, textarea#message, #message-text-submit > input[type^="submit"] {
-    margin: auto
   }
 }
 
@@ -261,27 +265,26 @@ input[type^="text"] {
 #message-text-submit {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 18px 170px auto;
+  grid-template-rows: 30px 170px 50px;
 }
 
 #message {
   width: 340px;
   height: 150px;
-  margin: 12px 5px 0px 2px;
+  margin: 0px 5px 0px 2px;
 }
 
 input[type^="submit"] {
   background-color: rgb(34, 34, 34);
   color: rgb(185, 185, 185);
   padding: 8px 12px 8px 12px;
-  margin-top: 145px;
   max-height: 40px;
   max-width: 80px;
   border: solid rgb(102, 102, 102) 1px;
   border-radius: 12px;
   grid-column: 1;
   grid-row: 3;
-  margin: 10px 0px 20px 0px;
+  margin: auto;
 }
 
 input[type^="submit"]:active {
