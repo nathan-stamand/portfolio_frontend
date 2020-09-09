@@ -17,9 +17,8 @@
     grid-template-columns: 1fr 1fr;
   }
 
-  div.main.card {
+  div#about-card, div#projects-card, div#blog-card {
     background-size: 160%;
-    padding: 10px;
   }
 
   div#contact-form {
@@ -65,6 +64,10 @@
 
   div#about-card, div#projects-card, div#blog-card, div#social-card {
     background-size: cover;
+  }
+
+  div#about-card {
+    background-position: 0px;
   }
 
   section.card-text {
