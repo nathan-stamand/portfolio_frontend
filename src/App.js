@@ -4,6 +4,8 @@ import './App.css';
 import Header from './Components/Header';
 import MainCards from './Components/MainCards';
 import ContactForm from './Components/ContactForm';
+import About from './Components/About';
+import Projects from './Components/Projects';
 
 function App() {
   return (
@@ -11,13 +13,10 @@ function App() {
       <Header />
         <Switch>
           <Route path="/about">
-            <p>ABOUT</p>
+            <About />
           </Route>
           <Route path="/projects">
-            <p>PROJECTS</p>
-          </Route>
-          <Route path="/blog">
-            <p>BLOG</p>
+            <Projects />
           </Route>
           <Route path="/social">
             <p>SOCIAL</p>
