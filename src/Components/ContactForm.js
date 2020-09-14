@@ -14,17 +14,7 @@ class ContactForm extends Component {
   }
 
   submitHandler = event => {
-    event.preventDefault()
-    // Email.send({
-    //   SecureToken: "56b6daf1-5cad-402f-bac6-30c90250c1c5",
-    //   To: 'nathan@nathan-stamand.com',
-    //   From: this.state.email,
-    //   Subject: this.state.name + ' reaching out from my site',
-    //   Body: this.state.body
-    // })
-    // .then(
-    //   message => alert(message)
-    // )
+    event.preventDefault();
   }
 
   render() {
