@@ -11,13 +11,26 @@ class ContactForm extends Component {
     this.setState({
       [event.target.id]: event.target.value
     })
-    console.log(this.state)
+  }
+
+  submitHandler = event => {
+    event.preventDefault()
+    // Email.send({
+    //   SecureToken: "56b6daf1-5cad-402f-bac6-30c90250c1c5",
+    //   To: 'nathan@nathan-stamand.com',
+    //   From: this.state.email,
+    //   Subject: this.state.name + ' reaching out from my site',
+    //   Body: this.state.body
+    // })
+    // .then(
+    //   message => alert(message)
+    // )
   }
 
   render() {
     return (
       <div id="contact-form">
-          <form>
+          <form onSubmit={this.submitHandler}>
             <section id="personal-info">
               <label htmlFor="name">Full Name</label>
               <input id="name" type="text" className="email-form" value={this.state.name} onChange={this.handleChange}/>
