@@ -3,7 +3,7 @@ import { Route, Switch } from "react-router-dom";
 import './App.css';
 import Header from './Components/Header';
 import MainCards from './Components/MainCards';
-import ContactForm from './Components/ContactForm';
+import Contact from './Components/Contact';
 import About from './Components/About';
 import Projects from './Components/Projects';
 
@@ -25,7 +25,7 @@ function App() {
             <MainCards />
           </Route>
         </Switch>
-      <ContactForm />
+      <Contact />
     </div>
   );
 }

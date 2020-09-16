@@ -26,8 +26,8 @@ class MainCards extends Component {
           <div id="blog-card" className="main card"onClick={this.openBlog}>
             <section className="card-text">BLOG</section>
           </div>
-        <div id="social-card" className="main card" onClick={this.loadComponent}>
-          <section className="card-text">SOCIAL</section>
+        <div id="contact-card" className="main card" onClick={this.loadComponent}>
+          <section className="card-text">CONTACT</section>
         </div>
       </div>
     </div>
