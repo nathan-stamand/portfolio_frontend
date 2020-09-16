@@ -58,7 +58,7 @@
     grid-template-rows: 25vh 25vh;
   }
 
-  div#about-card, div#projects-card, div#blog-card, div#social-card {
+  div#about-card, div#projects-card, div#blog-card, div#contact-card {
     background-size: cover;
   }
 
@@ -172,10 +172,10 @@ body {
   background-repeat: no-repeat;
 }
 
-#social-card {
+#contact-card {
   background-color: rgba(0, 128, 128, 0.6);
-  background: -webkit-linear-gradient(rgba(0, 128, 128, 0.6), rgba(0, 128, 128, 0.6)), url('./social_picture.jpg'), ;
-  background-image: linear-gradient(rgba(0, 128, 128, 0.6), rgba(0, 128, 128, 0.6)), url('./social_picture.jpg');
+  background: -webkit-linear-gradient(rgba(0, 128, 128, 0.6), rgba(0, 128, 128, 0.6)), url('./contact_picture.jpg'), ;
+  background-image: linear-gradient(rgba(0, 128, 128, 0.6), rgba(0, 128, 128, 0.6)), url('./contact_picture.jpg');
   background-size: 160%;
   background-repeat: no-repeat;
 }
@@ -192,8 +192,8 @@ body {
   background-image: url('./blog.jpg');
 }
 
-#social-card:hover {
-  background-image: url('./social_picture.jpg');
+#contact-card:hover {
+  background-image: url('./contact_picture.jpg');
 }
 
 .card-text {
