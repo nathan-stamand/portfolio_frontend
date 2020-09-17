@@ -18,9 +18,6 @@ function App() {
           <Route path="/projects">
             <Projects />
           </Route>
-          <Route path="/social">
-            <p>SOCIAL</p>
-          </Route>
           <Route path="/">
             <MainCards />
           </Route>
