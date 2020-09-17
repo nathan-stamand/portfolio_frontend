@@ -11,6 +11,10 @@ class MainCards extends Component {
     this.props.history.push(`/${keyword}`);
   }
 
+  openEmail = () => {
+    return window.location.href = "mailto:nathan@nathan-stamand.com"
+  }
+
   render() {
     return (
       <div id="main-cards-container">
@@ -26,7 +30,7 @@ class MainCards extends Component {
           <div id="blog-card" className="main card"onClick={this.openBlog}>
             <section className="card-text">BLOG</section>
           </div>
-        <div id="contact-card" className="main card" onClick={this.loadComponent}>
+        <div id="contact-card" className="main card" onClick={this.openEmail}>
           <section className="card-text">CONTACT</section>
         </div>
       </div>
