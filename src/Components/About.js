@@ -4,47 +4,56 @@ function About() {
   return (
     <div id="about-page">
       <h1 className="header">nathan st.amand</h1>
-      <section id="intro">I make things, and want to continue making things.
-      That's nearly all that there is to me. I like making websites, web applications,
-      songs, blog posts -- whatever.</section>
-      <section className="work">In 2017, I graduated college in Accounting. I had all the 
-      credits, courses, and work experience I needed to take the CPA exam. So I bought
-      the study guides (enormous textbooks) and, after work or on weekends, I'd try to
-      learn more.</section>
-      <section className="work">The problem was, as you may have guessed, I did not enjoy
-      anything about accounting. So, after a few more years of trying to find the accounting
-      job that would change my mind, I decided to start entertaining a new idea -- maybe I'm
-      just not an accountant?</section>
-      <section className="work">Eventually, the idea was so entertained that I left my job to
-      pursue something I <em>am</em> interested in, which brings me to now. Now, I'm fresh out 
-      of Flatiron's Software Engineering course and found that it was a lot easier than studying
-      GAAP (Generally Accepted Accounting Principles, if you're interested) or International Accounting
-      Standards.
+      <section id="intro">
+        <h3>A Little About Me</h3>
+        <p>
+          I was an accountant, but now I'm entering my new career in web development.
+          I recently graduated from the Software Engineering bootcamp at Flatiron School.
+        </p>
       </section>
-      
-      <section>
-        <h2 id="skills">skills</h2>
-        <div id="skill-lists">
-          <h3>Languages and Software</h3>
-          <ul id="languages-software-list">
-            <li>Javascript (ES6)</li>
-            <li>HTML / CSS</li>
-            <li>SQL</li>
-            <li>Ruby on Rails</li>
-            <li>React / Redux</li>
-            <li>jQuery</li>
-            <li>Bootstrap</li>
-            <li>OAuth</li>
-          </ul>
-          <h3>Methodologies</h3>
-          <ul id="methodologies-list">
-            <li>Test-Driven Development</li>
-            <li>Object-Oriented Programming</li>
-            <li>MVC (Model-View-Controller) Design Pattern</li>
-            <li>RESTful API</li>
-            <li>Responsive Design</li>
-          </ul>
-        </div>
+      <section id="skills">
+        <h3>What I Know Now</h3>
+        <p>
+          Javascript (ES6)
+          || HTML5
+          || CSS3
+          || SQL
+          || Ruby on Rails
+          || React
+          || Redux
+          || jQuery
+          || Bootstrap
+          || OAuth
+          || Test-Driven Development
+          || Object-Oriented Programming
+          || MVC (Model-View-Controller) Design Pattern
+          || RESTful API
+          || Responsive Design
+        </p>
+      </section>
+      <section id="more-about-me">
+        <h3>Why Would You Hire a Guy Like Me?</h3>
+        <p>
+          Fair enough question! From what I've heard, I'm a "nice enough" guy people 
+          "don't hate" working with, for one. Also, I'm typically pretty quiet, but 
+          if someone initiates conversation with me I find myself pretty
+          <span className="bold"> dang</span> social. Not in a weird, intense way -- in a really
+          cool, natural way. In fact, it's weird that I'm talking about it, because it's really
+          seamless. You probably never would have thought about it if I didn't let you know. 
+        </p>
+        <p>
+          On a more serious note, I'm not only a fast learner but someone who prides himself on 
+          learning <span className="italics">well</span>. I enjoy learning new things, I take pride in
+          my work, and I like having systems for myself. I spent over five years being "just an accountant" -- 
+          I stopped my hobbies, I didn't feel creative, and I spent my weekends dreading my jobs. Now, I've 
+          found something that makes me feel accomplished at the end of the day. That's why I'd make a good 
+          employee. I worked hard when I didn't enjoy my job, now I'm ready to see what I can do when I'm excited
+          to work.
+        </p>
+      </section>
+      <section id="resume-plug">
+        <h4>Interested in hiring me? Can't blame you -- click here for my resumé!</h4>
+        <a href="https://docs.google.com/document/d/1BnBiljY6PmR-yCRqOMMwJt3On0SFGW7SaP4PRWtqKfc/edit?usp=sharing" alt="nathan-stamand-resume" target="_blank">Resume</a>
       </section>
     </div>
   )
