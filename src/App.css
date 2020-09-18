@@ -210,3 +210,37 @@ body {
   min-height: 300px;
   background: rgba(48, 48, 48);
 }
+
+/* About.js CSS */
+
+#about-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  color: rgb(226, 208, 168);
+}
+
+.about {
+  grid-column: 2;
+  text-align: center;
+}
+
+#resume-button {
+  color: rgb(255, 212, 157);
+  font-weight: bold;
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-style: solid;
+  border-color: burlywood;
+  border-width: 3px;
+  border-radius: 10px;
+}
+
+#resume-button:hover {
+ color: rgba(0, 0, 0, 0.85);
+ background: burlywood;
+ border-style: double;
+ border-color: rgba(0, 0, 0, 0.85);
+ transition-duration: .8s;
+}
