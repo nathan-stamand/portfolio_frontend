@@ -3,15 +3,15 @@ import React from 'react';
 function About() {
   return (
     <div id="about-page">
-      <h1 className="header">nathan st.amand</h1>
-      <section id="intro">
+      <h1 className="header" className="about">nathan st.amand</h1>
+      <section id="intro" className="about">
         <h3>A Little About Me</h3>
         <p>
           I was an accountant, but now I'm entering my new career in web development.
           I recently graduated from the Software Engineering bootcamp at Flatiron School.
         </p>
       </section>
-      <section id="skills">
+      <section id="skills" className="about">
         <h3>What I Know Now</h3>
         <p>
           Javascript (ES6)
@@ -31,7 +31,7 @@ function About() {
           || Responsive Design
         </p>
       </section>
-      <section id="more-about-me">
+      <section id="more-about-me" className="about">
         <h3>Why Would You Hire a Guy Like Me?</h3>
         <p>
           Fair enough question! From what I've heard, I'm a "nice enough" guy people 
@@ -51,9 +51,15 @@ function About() {
           to work.
         </p>
       </section>
-      <section id="resume-plug">
+      <section id="resume-plug" className="about">
         <h4>Interested in hiring me? Can't blame you -- click here for my resumé!</h4>
-        <a href="https://docs.google.com/document/d/1BnBiljY6PmR-yCRqOMMwJt3On0SFGW7SaP4PRWtqKfc/edit?usp=sharing" alt="nathan-stamand-resume" target="_blank">Resume</a>
+        <a 
+          href="https://docs.google.com/document/d/1BnBiljY6PmR-yCRqOMMwJt3On0SFGW7SaP4PRWtqKfc/edit?usp=sharing" 
+          alt="nathan-stamand-resume" 
+          target="_blank"
+          id="resume-button">
+          Resumé
+        </a>
       </section>
     </div>
   )
