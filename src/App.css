@@ -28,6 +28,18 @@
     grid-template-columns: 0 auto 0;
     height: fit-content;
   }
+
+  div#projects-page {
+    grid-template-columns: 0 auto 0;
+  }
+
+  div > div.projects {
+    margin: 10px 0px;
+  }
+
+  div.project-img {
+    min-width: 320px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -215,7 +227,7 @@ body {
 
 #about-page, #projects-page {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 25% auto 25%;
   grid-template-rows: auto;
   color: rgb(226, 208, 168);
 }
@@ -245,14 +257,34 @@ body {
  transition-duration: .8s;
 }
 
+div.projects {
+  background-color: rgba(44, 85, 90, 0.753);
+  margin: 15px;
+  padding: 0 8px 8px 8px;
+  border: solid 2px white;
+}
+
+.project-img {
+  min-width: 500px;
+}
+
+.project-img > img {
+  width: 100%;
+}
+
+.project-img > img:hover {
+  opacity: 0.9;
+  transition-duration: 1s;
+}
+
 .project-links > a {
   text-decoration: none;
-  color: rgb(63, 76, 194);
+  color: rgb(15, 166, 185);
   margin: 0 10px;
 }
 
 .project-links > a:hover {
-  text-decoration: line-through;
+  text-decoration: underline;
   color: white;
   transition-duration: 1s;
 }

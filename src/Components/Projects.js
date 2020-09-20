@@ -5,7 +5,7 @@ function Projects() {
     <div id="projects-page">
       <h1 className="projects">Here are some of my projects!</h1>
       <div id="ripchorder" className="projects">
-        <h4 className="project-title">RipChorder</h4>
+        <h2 className="project-title">RipChorder</h2>
         <div className="project-img">
           <img alt="ripchorder logo" src={require('../RipChorder.png')} />
         </div>
@@ -21,7 +21,7 @@ function Projects() {
         </section>
       </div>
       <div id="diywm" className="projects">
-      <h4 className="project-title">DIY With Me!</h4>
+      <h2 className="project-title">DIY With Me!</h2>
         <div className="project-img">
           <img alt="diy with me! logo" src={require('../DIYWM.png')} />
         </div>
@@ -37,7 +37,7 @@ function Projects() {
         </section>
       </div>
       <div id="dungeons-n-data" className="projects">
-        <h4 className="project-title">Dungeons 'N' Data</h4>
+        <h2 className="project-title">Dungeons 'N' Data</h2>
         <div className="project-img">
           <img alt="dungeons n data logo" src={require('../DND.png')} />
         </div>
