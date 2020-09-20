@@ -23,7 +23,7 @@ function Projects() {
       <div id="diywm" className="projects">
       <h4 className="project-title">DIY With Me!</h4>
         <div className="project-img">
-          <img alt="diy with me! logo" src={require('../DIYWM.jpg')} />
+          <img alt="diy with me! logo" src={require('../DIYWM.png')} />
         </div>
         <section className="project-links">
           <a alt="diywm-repo" href="https://github.com/nathan-stamand/diywm" target="_blank">Github</a>
@@ -39,7 +39,7 @@ function Projects() {
       <div id="dungeons-n-data" className="projects">
         <h4 className="project-title">Dungeons 'N' Data</h4>
         <div className="project-img">
-          <img alt="dungeons n data logo" src={require('../DND.jpg')} />
+          <img alt="dungeons n data logo" src={require('../DND.png')} />
         </div>
         <section className="project-links">
           <a alt="diywm-repo" href="https://github.com/nathan-stamand/dungeons_n_data" target="_blank">Github</a>
