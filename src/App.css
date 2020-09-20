@@ -211,7 +211,7 @@ body {
   background: rgba(48, 48, 48);
 }
 
-/* About.js CSS */
+/* About.js, Projects.js CSS */
 
 #about-page, #projects-page {
   display: grid;
@@ -243,4 +243,16 @@ body {
  border-style: double;
  border-color: rgba(0, 0, 0, 0.85);
  transition-duration: .8s;
+}
+
+.project-links > a {
+  text-decoration: none;
+  color: rgb(63, 76, 194);
+  margin: 0 10px;
+}
+
+.project-links > a:hover {
+  text-decoration: line-through;
+  color: white;
+  transition-duration: 1s;
 }
