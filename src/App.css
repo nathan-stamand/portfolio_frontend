@@ -213,14 +213,14 @@ body {
 
 /* About.js CSS */
 
-#about-page {
+#about-page, #projects-page {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   color: rgb(226, 208, 168);
 }
 
-.about {
+.about, .projects {
   grid-column: 2;
   text-align: center;
 }
