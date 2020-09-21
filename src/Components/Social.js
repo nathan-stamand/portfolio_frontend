@@ -8,13 +8,19 @@ function Social() {
         <p>nathan@nathan-stamand.com</p>
       </section>
       <div id="github-icon" className="icon-container">
-        <img src={require('../Github Icon.png')} alt="Github" />
+        <a alt="github link" href="https://github.com/nathan-stamand" target="_blank">
+          <img src={require('../Github Icon.png')} alt="Github" />
+        </a>
       </div>
       <div id="linkedin-icon" className="icon-container">
-        <img src={require('../LinkedIn Icon.png')} alt="LinkedIn" />
+        <a alt="linkedin link" href="https://www.linkedin.com/in/nathan-st-amand/" target="_blank">
+          <img src={require('../LinkedIn Icon.png')} alt="LinkedIn" />
+        </a>
       </div>
       <div id="twitter-icon" className="icon-container">
-        <img src={require('../Twitter Icon.png')} alt="Twitter" />
+        <a alt="twitter link" href="https://twitter.com/NathanStAmand" target="_blank">
+          <img src={require('../Twitter Icon.png')} alt="Twitter" />
+        </a>
       </div>
       <section id="resume-plug" className="about">
       <a 
