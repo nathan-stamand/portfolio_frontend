@@ -11,13 +11,14 @@ import MenuButton from "./Components/MenuButton";
 function App() {
   return (
     <div className="App">
-      <MenuButton />
       <Header />
         <Switch>
           <Route path="/about">
+            <MenuButton />
             <About />
           </Route>
           <Route path="/projects">
+            <MenuButton />
             <Projects />
           </Route>
           <Route path="/">
