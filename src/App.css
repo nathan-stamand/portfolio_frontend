@@ -247,11 +247,11 @@ body {
   grid-row: 2;
 }
 
-.icon-container > img {
+.icon-container > a > img {
   border-radius: 12px;
 }
 
-.icon-container > img:hover {
+.icon-container > a > img:hover {
   cursor: pointer;
 }
 
@@ -327,13 +327,40 @@ div.projects {
 
 #menu-btn {
   background-color: rgba(48, 48, 48, 0.85);
-  border-radius: 2px 2px 2px 5px;
+  border-radius: 8px;
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto auto auto;
+  text-align: center;
   width: 60px;
   height: 50px;
   position: fixed;
   top: 0px;
   left: calc(100% - 60px);
+  z-index: 1000;
+}
+
+.line {
+  margin: 5px auto 0 auto;
+  height: 4px;
+  width: 75%;
+  border-radius: 12px;
+}
+
+#l1 {
+  background-color: rgba(58, 116, 202, 0.637);
+}
+
+#l2 {
+  background-color: rgba(202, 192, 58, 0.637);
+}
+
+#l3 {
+  background-color: rgba(202, 58, 171, 0.637);
+}
+
+#menu-btn:hover {
+  cursor: pointer;
+  transform: rotate(360deg);
+  transition-duration: .25s;
 }
