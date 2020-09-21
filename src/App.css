@@ -1,5 +1,4 @@
 @media screen and (min-width: 1200px) {
-  /* Main CSS */
   div#background-pic {
     background-size: 66.7%;
     min-height: 200px;
@@ -8,14 +7,12 @@
 }
 
 @media screen and (max-width: 1199px) {
-  /* Main CSS */
   div#background-pic {
     background-size: cover;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  /* Main CSS */
   div#main-card-container-a, div#main-card-container-b {
     grid-template-columns: 1fr 1fr;
   }
@@ -43,7 +40,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  /* Main CSS */
   div#background-pic {
     background-size: cover;
     max-height: 180px;
@@ -82,8 +78,6 @@
     padding: 1vh 1vw;
   }
 }
-
-/* Main CSS */
 
 body {
   background-color: rgb(48, 48, 48) ;
@@ -253,7 +247,9 @@ body {
   border-radius: 12px;
 }
 
-/* About.js, Projects.js CSS */
+.icon-container > img:hover {
+  cursor: pointer;
+}
 
 #about-page, #projects-page {
   display: grid;
