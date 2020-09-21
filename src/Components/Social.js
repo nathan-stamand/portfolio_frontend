@@ -5,7 +5,7 @@ function Social() {
     <div id="social">
       <section id="social-blurb">
         <p>Feel free to reach out on my Github, social media, or email!</p>
-        <p>Thanks for checking out my portfolio!</p>
+        <p>nathan@nathan-stamand.com</p>
       </section>
       <div id="github-icon" className="icon-container">
         <img src={require('../Github Icon.png')} alt="Github" />
