@@ -6,15 +6,12 @@ import MainCards from './Components/MainCards';
 import Social from './Components/Social';
 import About from './Components/About';
 import Projects from './Components/Projects';
+import MenuButton from "./Components/MenuButton";
 
 function App() {
   return (
     <div className="App">
-      <div id="menu-btn">
-        <div id="l1" className="line"></div>
-        <div id="l2" className="line"></div>
-        <div id="l3" className="line"></div>
-      </div>
+      <MenuButton />
       <Header />
         <Switch>
           <Route path="/about">
