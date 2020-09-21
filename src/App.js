@@ -10,6 +10,11 @@ import Projects from './Components/Projects';
 function App() {
   return (
     <div className="App">
+      <div id="menu-btn">
+        <div id="l1" className="line"></div>
+        <div id="l2" className="line"></div>
+        <div id="l3" className="line"></div>
+      </div>
       <Header />
         <Switch>
           <Route path="/about">
