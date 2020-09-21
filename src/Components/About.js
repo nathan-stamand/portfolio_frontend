@@ -51,16 +51,6 @@ function About() {
           to work.
         </p>
       </section>
-      <section id="resume-plug" className="about">
-        <h4>Interested in hiring me? Can't blame you -- click here for my resumé!</h4>
-        <a 
-          href="https://docs.google.com/document/d/1BnBiljY6PmR-yCRqOMMwJt3On0SFGW7SaP4PRWtqKfc/edit?usp=sharing" 
-          alt="nathan-stamand-resume" 
-          target="_blank"
-          id="resume-button">
-          Resumé
-        </a>
-      </section>
     </div>
   )
 }
