@@ -10,8 +10,8 @@ function Projects() {
           <img alt="ripchorder logo" src={require('../RipChorder.png')} />
         </div>
         <section className="project-links">
-          <a alt="ripchorder-repo" href="https://github.com/nathan-stamand/RipChorder" target="_blank">Github</a>
-          <a alt="ripchorder-demo" href="https://www.youtube.com/watch?v=WVxdl4L7cnA&t" target="_blank">Demo</a>
+          <a alt="ripchorder-repo" href="https://github.com/nathan-stamand/RipChorder" target="_blank" rel="noopener noreferrer">Github</a>
+          <a alt="ripchorder-demo" href="https://www.youtube.com/watch?v=WVxdl4L7cnA&t" target="_blank" rel="noopener noreferrer">Demo</a>
         </section>
         <section className="blurb">
           A web app for quickly stringing together chord progressions, useable by beginners or experts. 
@@ -26,8 +26,8 @@ function Projects() {
           <img alt="diy with me! logo" src={require('../DIYWM.png')} />
         </div>
         <section className="project-links">
-          <a alt="diywm-repo" href="https://github.com/nathan-stamand/diywm" target="_blank">Github</a>
-          <a alt="diywm-demo" href="https://www.youtube.com/watch?v=OfhohPEU1MQ&t" target="_blank">Demo</a>
+          <a alt="diywm-repo" href="https://github.com/nathan-stamand/diywm" target="_blank" rel="noopener noreferrer">Github</a>
+          <a alt="diywm-demo" href="https://www.youtube.com/watch?v=OfhohPEU1MQ&t" target="_blank" rel="noopener noreferrer">Demo</a>
         </section>
         <section className="blurb">
         An easy-to-use single-page blogging app for your DIY projects. 
@@ -42,8 +42,8 @@ function Projects() {
           <img alt="dungeons n data logo" src={require('../DND.png')} />
         </div>
         <section className="project-links">
-          <a alt="diywm-repo" href="https://github.com/nathan-stamand/dungeons_n_data" target="_blank">Github</a>
-          <a alt="diywm-demo" href="https://www.youtube.com/watch?v=vXvUUOsRr-E&t" target="_blank">Demo</a>
+          <a alt="diywm-repo" href="https://github.com/nathan-stamand/dungeons_n_data" target="_blank" rel="noopener noreferrer">Github</a>
+          <a alt="diywm-demo" href="https://www.youtube.com/watch?v=vXvUUOsRr-E&t" target="_blank" rel="noopener noreferrer">Demo</a>
         </section>
         <section className="blurb">
         An app for tracking your Dungeons and Dragons campaigns, characters, and sessions easily. 
