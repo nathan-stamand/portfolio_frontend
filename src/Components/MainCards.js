@@ -7,7 +7,7 @@ class MainCards extends Component {
   }
 
   loadComponent = event => {
-    const keyword = event.target.id.replace('-card', '');
+    const keyword = event.target.id.split('-')[0];
     this.props.history.push(`/${keyword}`);
   }
 
@@ -20,10 +20,10 @@ class MainCards extends Component {
       <div id="main-cards-container">
         <div id="main-card-container-a">
           <div id="about-card" className="main card" onClick={this.loadComponent}>
-            <section className="card-text" >ABOUT</section>
+            <section id="about-section" className="card-text" >ABOUT</section>
           </div>
           <div id="projects-card" className="main card" onClick={this.loadComponent}>
-            <section className="card-text" >PROJECTS</section>
+            <section id="projects-section" className="card-text" >PROJECTS</section>
           </div>
         </div>
         <div id="main-card-container-b">
